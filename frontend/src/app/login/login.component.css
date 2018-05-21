@@ -18,22 +18,9 @@ div.main{
   box-sizing: border-box;
     margin:0px auto;
 
-  &:before,
-  &:after {
-    box-sizing: border-box;
-  }
-
 }
-/*
-body {
 
-  color: #606468;
-  font: 87.5%/1.5em 'Open Sans', sans-serif;
-  margin: 0;
-}
-*/
 a {
-	color: #eee;
 	text-decoration: none;
 }
 
@@ -47,11 +34,12 @@ input {
 	font-size: 14px;
 	line-height: 1.5em;
 	padding: 0;
-	-webkit-appearance: none;
+  -webkit-appearance: none;
+  margin-bottom: 0%
 }
 
 p {
-	line-height: 1.5em;
+	lineheight: 1.5em;
 }
 
 .clearfix {
@@ -108,7 +96,7 @@ font-size:50px;
     font-size:24px;
 	line-height: 50px;
 	text-align: center;
-	width: 50px;
+  width: 50px;
 }
 
 #login form input {
@@ -125,7 +113,7 @@ fieldset{
 	background-color: #fff;
 	border-radius: 0px 3px 3px 0px;
 	color: #000;
-	margin-bottom: 1em;
+	margin-bottom: 1%;
 	padding: 0 16px;
 	width: 250px;
 }
@@ -171,4 +159,8 @@ fieldset{
   border: 1px solid red;
 }
 
+.alert {
+  font-size: 10px;
+  color: black;
+}
 
